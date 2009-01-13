@@ -1,0 +1,42 @@
+== 2.0.0 released 2009-01-14
+
+* Updated to Rails 2.2.2.
+* Removed all dependencies.
+
+== 2007-10-01
+
+* (#14286) Calls to SystemSetting[:environment] return nil.
+
+== 2006-10-13
+
+* install.rb informs user of missing dependencies.
+
+== 2006-09-09
+
+* Removed dependency on RedHill on Rails Core.
+* Removed dependency on defunct Schema Defining.
+
+== 2006-09-04
+
+* Migration script generated with a column limit for name to satisfy most databases. If you're using a database such as PostgreSQL--that supports unbounded text fields with no performance penalties--and wish to have the previous behaviour, you can still edit the generated file and change it manually.
+
+== 2006-09-03
+
+* Migration script generator determines pluralisation at generation time.
+
+== 2006-09-02
+
+* The default generated migration script name is now create_system_settings.rb
+* Correctly handle pluralisation of the table name via Inflector.
+
+== 2006-08-02
+
+* Removed validates_uniqueness_of :name. Install the schema_validations plugin instead.
+
+== 2006-07-17
+
+* Removed validates_presence_of :value. Install the schema_validations plugin instead.
+
+== 2006-07-03
+
+* Initial version.

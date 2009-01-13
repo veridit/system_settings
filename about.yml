@@ -1,0 +1,5 @@
+author: haruki.zaemon@gmail.com
+summary: "Store and retrieve Ruby on Rails application configuration settings in the database."
+homepage: http://github.com/harukizaemon/system_settings
+license: MIT
+rails_version: 2.2.2
