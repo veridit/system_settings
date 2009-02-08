@@ -1,3 +1,7 @@
+== 2.0.1 released 2009-02-08
+
+* Bump version number to try and get it to build on GitHub.
+
 == 2.0.0 released 2009-01-14
 
 * Updated to Rails 2.2.2.

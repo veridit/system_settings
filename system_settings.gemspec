@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "system_settings"
-  s.version  = "2.0.0"
+  s.version  = "2.0.1"
   s.date     = "2009-01-14"
   s.summary  = "Store and retrieve Ruby on Rails application configuration settings in the database."
   s.email    = "haruki.zaemon@gmail.com"
